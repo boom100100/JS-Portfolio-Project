@@ -108,6 +108,7 @@ GEM
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
     naught (1.1.0)
+    news-api (0.2.0)
     nio4r (2.5.2)
     nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
@@ -118,7 +119,7 @@ GEM
       method_source (~> 1.0)
     public_suffix (4.0.4)
     puma (3.12.4)
-    rack (2.2.2)
+    rack (2.2.3)
     rack-cors (1.1.1)
       rack (>= 2.0.0)
     rack-protection (2.0.8.1)
@@ -227,6 +228,7 @@ DEPENDENCIES
   byebug
   capybara
   database_cleaner
+  news-api
   pry
   puma (~> 3.12)
   rack-cors
